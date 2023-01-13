@@ -20,4 +20,10 @@
 
 ### 5. Introdução ao JavaScript - Básico II
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/a83da6a36dacb9472c7c60cc6bf16f4ce92b82f6)
+
+## Seção 2: Projeto Calculadora com JavaScript
+
+### 6. Estruturando o projeto
+
 [Commit da aula]()
