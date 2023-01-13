@@ -16,4 +16,8 @@
 
 ### 4. Introdução ao JavaScript - Básico I
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/0ac07c472ce61202720b35b38388e1ece20a2cd3)
+
+### 5. Introdução ao JavaScript - Básico II
+
 [Commit da aula]()
