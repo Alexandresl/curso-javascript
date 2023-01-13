@@ -26,4 +26,8 @@
 
 ### 6. Estruturando o projeto
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/d9c278d78efac01fca1f96eefc42c4c45aeba86b)
+
+### 7. Orientação a Objetos e MVC
+
 [Commit da aula]()
