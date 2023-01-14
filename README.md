@@ -46,4 +46,8 @@
 
 ### 11. querySelector
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/53236e3cf76986a3f643dbf35596fd8635327d27)
+
+### 12. Adicionando Evento Click
+
 [Commit da aula]()

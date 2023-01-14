@@ -38,9 +38,7 @@ class CalcController {
     this.setDisplayDateTime();
 
     setInterval(() => {
-
       this.setDisplayDateTime();
-
     }, 1000);
 
   }
@@ -48,6 +46,12 @@ class CalcController {
   initButtonsEvents() {
 
     const buttons = document.querySelectorAll("#buttons > g, #parts > g");
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', e => {
+        console.log(btn.className.baseVal.replace('btn-', ""));
+      });
+    });
 
   }
 
