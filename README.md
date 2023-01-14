@@ -50,4 +50,8 @@
 
 ### 12. Adicionando Evento Click
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/ad1f25d6427b74bff143a266b4904398b7faf49c)
+
+### 13. Aplicando vários Eventos usando split()
+
 [Commit da aula]()
