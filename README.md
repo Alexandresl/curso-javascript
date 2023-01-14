@@ -54,4 +54,8 @@
 
 ### 13. Aplicando vários Eventos usando split()
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/2af7a8666623c60ecdf44a35dd597557e6d23543)
+
+### 14. Switch
+
 [Commit da aula]()
