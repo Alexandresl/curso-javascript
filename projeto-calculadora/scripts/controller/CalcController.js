@@ -6,6 +6,7 @@ class CalcController {
     this._dateEl = document.querySelector("#date");
 
     this.initialize();
+    this.initButtonsEvents();
   }
 
   get displayCalc() {
@@ -41,6 +42,12 @@ class CalcController {
       this.setDisplayDateTime();
 
     }, 1000);
+
+  }
+
+  initButtonsEvents() {
+
+    const buttons = document.querySelectorAll("#buttons > g, #parts > g");
 
   }
 

@@ -42,4 +42,8 @@
 
 ### 10. Data e Hora
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/d794212276809b30cf2b98ddea3580b93a2d6995)
+
+### 11. querySelector
+
 [Commit da aula]()
