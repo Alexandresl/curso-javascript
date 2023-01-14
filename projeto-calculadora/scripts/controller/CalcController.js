@@ -2,7 +2,10 @@ class CalcController {
 
   constructor() {
     this._displayCalc = "0";
-		this._dataAtual;
+		this._currentDate;
+
+    this.initialize();
+
   }
 
   get displayCalc() {
@@ -13,12 +16,24 @@ class CalcController {
     this._displayCalc = value;
   }
 
-  get dataAtual() {
-    return this.dataAtual;
+  get currentDate() {
+    return this.currentDate;
   }
 
-  set dataAtual(value) {
-    this._dataAtual = value;
+  set currentDate(value) {
+    this._currentDate = value;
+  }
+
+  initialize() {
+
+    const displayCalcEl = document.querySelector("#display");
+    const timeEl = document.querySelector("#time");
+    const dateEl = document.querySelector("#date");
+
+    displayCalcEl.innerHTML = "0";
+    timeEl.innerHTML = "21:18";
+    dateEl.innerHTML = "13/01/2023";
+
   }
 
 }

@@ -34,4 +34,8 @@
 
 ### 8. Método Construtor e Encapsulamento
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/4a30ed812fe0c7503a028b0360c9c4ac352a02ca)
+
+### 9. Manipulando o DOM
+
 [Commit da aula]()
