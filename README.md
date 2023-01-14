@@ -38,4 +38,8 @@
 
 ### 9. Manipulando o DOM
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/ca996dcab022d1b36a4c32ed7f679ac1db0457c4)
+
+### 10. Data e Hora
+
 [Commit da aula]()
