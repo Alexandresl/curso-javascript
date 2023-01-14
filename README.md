@@ -30,4 +30,8 @@
 
 ### 7. Orientação a Objetos e MVC
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/e53d42a8831edd1de063562e744a801931613de5)
+
+### 8. Método Construtor e Encapsulamento
+
 [Commit da aula]()
