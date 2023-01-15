@@ -74,4 +74,8 @@
 
 ### 18. Botão Porcento
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/9b478985f069d0ecdb849ada8986bc56f831b29a)
+
+### 19. Clicando mais de uma vez no botão igual
+
 [Commit da aula]()
