@@ -49,56 +49,81 @@ class CalcController {
   }
 
   clearAll() {
-
     this._operation = [];
-
   }
 
   clearEntry() {
-
     this._operation.pop();
-
   }
 
   setError() {
-
-    this.displayCalc = "Error"
+    this.displayCalc = "Error";
   }
 
   getLastOperation() {
-
     return this._operation[this._operation.length - 1];
-
   }
 
   isOperator(value) {
-    return (['+', '-', '*', '/', '%'].indexOf(value) > -1);
+    return ["+", "-", "*", "/", "%"].indexOf(value) > -1;
   }
 
   setLastOperation(value) {
     this._operation[this._operation.length - 1] = value;
   }
 
+  pushOperation(value) {
+
+    this._operation.push(value);
+
+    if (this._operation.length > 3) {
+
+      this.calc();
+
+    }
+
+  }
+
+  calc() {
+
+    const last = this._operation.pop();
+
+    const result = eval(this._operation.join(""));
+
+    this._operation = [result, last];
+
+    console.log(this._operation);
+
+  }
+
+  setLastNumberToDisplay() {
+
+    
+
+  }
+
   addOperation(value) {
 
     if (isNaN(this.getLastOperation())) {
       if (this.isOperator(value)) {
-        // Trocar o operador
-        this.setLastOperation(value)
+        this.setLastOperation(value);
       } else if (isNaN(value)) {
-        // É o ponto
         console.log("Outra coisa: ", value);
       } else {
-        this._operation.push(value);
+        this.pushOperation(value);
+        this.setLastNumberToDisplay();
       }
     } else {
-      // Number
-      const newValue = this.getLastOperation().toString() + value.toString();
-      this.setLastOperation(parseInt(newValue));
+      if (this.isOperator(value)) {
+        this.pushOperation(value);
+      } else {
+        const newValue = this.getLastOperation().toString() + value.toString();
+        this.setLastOperation(parseInt(newValue));
+        this.setLastNumberToDisplay();
+      }
     }
-    
-    console.log(this._operation);
 
+    console.log(this._operation);
   }
 
   execBtn(value) {
@@ -127,18 +152,18 @@ class CalcController {
       case "igual":
         break;
       case "ponto":
-        this.addOperation('.');
+        this.addOperation(".");
         break;
-      case '0':
-      case '1':
-      case '2':
-      case '3':
-      case '4':
-      case '5':
-      case '6':
-      case '7':
-      case '8':
-      case '9':
+      case "0":
+      case "1":
+      case "2":
+      case "3":
+      case "4":
+      case "5":
+      case "6":
+      case "7":
+      case "8":
+      case "9":
         this.addOperation(value);
         break;
       default:

@@ -62,4 +62,8 @@
 
 ### 15. Adicionando operações - isNaN e Array.length
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/bbd71a71ddaf0f8c9b187a877769c020b3b7ccf1)
+
+### 16. Eval - Validando o primeiro operador e calculando o resultado
+
 [Commit da aula]()
