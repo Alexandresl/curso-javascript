@@ -86,4 +86,8 @@
 
 ### 21. Correções de Bugs com o Ponto
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/9a10d6e2c7bb234c97c1dcaca03e33a2153cfdf9)
+
+### 22. Eventos de Teclado
+
 [Commit da aula]()
