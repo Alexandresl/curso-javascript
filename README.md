@@ -82,4 +82,8 @@
 
 ### 20. Botão ponto
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/cb32fdba905184e1f4d52860759f04a8fb80a8b1)
+
+### 21. Correções de Bugs com o Ponto
+
 [Commit da aula]()
