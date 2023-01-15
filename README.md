@@ -78,4 +78,8 @@
 
 ### 19. Clicando mais de uma vez no botão igual
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/a59551b2afeb0b7033c9e1aca7a8587994bc4baf)
+
+### 20. Botão ponto
+
 [Commit da aula]()
