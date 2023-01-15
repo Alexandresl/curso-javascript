@@ -66,4 +66,8 @@
 
 ### 16. Eval - Validando o primeiro operador e calculando o resultado
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/a56ed6f3c0a4c1bdc1b9f66760123ae9b9a56312)
+
+### 17. For - Procurando o último número do array
+
 [Commit da aula]()
