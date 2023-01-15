@@ -70,4 +70,8 @@
 
 ### 17. For - Procurando o último número do array
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/1ed484d467197ae0ab883d323078ebb195c1d4e7)
+
+### 18. Botão Porcento
+
 [Commit da aula]()

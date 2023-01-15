@@ -40,6 +40,8 @@ class CalcController {
     setInterval(() => {
       this.setDisplayDateTime();
     }, 1000);
+
+    this.setLastNumberToDisplay();
   }
 
   addEventListenerAll(element, events, fn) {
@@ -50,10 +52,12 @@ class CalcController {
 
   clearAll() {
     this._operation = [];
+    this.setLastNumberToDisplay();
   }
 
   clearEntry() {
     this._operation.pop();
+    this.setLastNumberToDisplay();
   }
 
   setError() {
@@ -73,48 +77,49 @@ class CalcController {
   }
 
   pushOperation(value) {
-
     this._operation.push(value);
 
     if (this._operation.length > 3) {
-
       this.calc();
-
     }
-
   }
 
   calc() {
 
-    const last = this._operation.pop();
+    let last = '';
 
-    const result = eval(this._operation.join(""));
+    if (this._operation.length > 3) {
+      last = this._operation.pop();
+    }
+    let result = eval(this._operation.join(""));
 
-    this._operation = [result, last];
-
+    if (last == "%") {
+      result /= 100;
+      this._operation = [result];
+    } else {
+      this._operation = [result];
+      if (last) this._operation.push(last);
+    }
     this.setLastNumberToDisplay();
 
   }
 
   setLastNumberToDisplay() {
-
     let lastNumber;
 
     for (let i = this._operation.length - 1; i >= 0; i--) {
-
       if (!this.isOperator(this._operation[i])) {
         lastNumber = this._operation[i];
         break;
       }
-
     }
 
-    this.displayCalc = lastNumber;
+    if (!lastNumber) lastNumber = 0;
 
+    this.displayCalc = lastNumber;
   }
 
   addOperation(value) {
-
     if (isNaN(this.getLastOperation())) {
       if (this.isOperator(value)) {
         this.setLastOperation(value);
@@ -133,8 +138,6 @@ class CalcController {
         this.setLastNumberToDisplay();
       }
     }
-
-    console.log(this._operation);
   }
 
   execBtn(value) {
@@ -161,6 +164,7 @@ class CalcController {
         this.addOperation("%");
         break;
       case "igual":
+        this.calc();
         break;
       case "ponto":
         this.addOperation(".");
