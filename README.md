@@ -58,4 +58,8 @@
 
 ### 14. Switch
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/16ec7fdd895a6e76d5b350d37d33573e9be4c0ac)
+
+### 15. Adicionando operações - isNaN e Array.length
+
 [Commit da aula]()

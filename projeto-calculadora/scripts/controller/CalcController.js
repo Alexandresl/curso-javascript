@@ -65,9 +65,38 @@ class CalcController {
     this.displayCalc = "Error"
   }
 
+  getLastOperation() {
+
+    return this._operation[this._operation.length - 1];
+
+  }
+
+  isOperator(value) {
+    return (['+', '-', '*', '/', '%'].indexOf(value) > -1);
+  }
+
+  setLastOperation(value) {
+    this._operation[this._operation.length - 1] = value;
+  }
+
   addOperation(value) {
 
-    this._operation.push(value);
+    if (isNaN(this.getLastOperation())) {
+      if (this.isOperator(value)) {
+        // Trocar o operador
+        this.setLastOperation(value)
+      } else if (isNaN(value)) {
+        // É o ponto
+        console.log("Outra coisa: ", value);
+      } else {
+        this._operation.push(value);
+      }
+    } else {
+      // Number
+      const newValue = this.getLastOperation().toString() + value.toString();
+      this.setLastOperation(parseInt(newValue));
+    }
+    
     console.log(this._operation);
 
   }
@@ -97,6 +126,9 @@ class CalcController {
         break;
       case "igual":
         break;
+      case "ponto":
+        this.addOperation('.');
+        break;
       case '0':
       case '1':
       case '2':
@@ -120,7 +152,6 @@ class CalcController {
     buttons.forEach((btn) => {
       this.addEventListenerAll(btn, "click drag", (e) => {
         let text = btn.className.baseVal.replace("btn-", "");
-        console.log(text);
         this.execBtn(text);
       });
       this.addEventListenerAll(btn, "mouseover mouseup mousedown", (e) => {
