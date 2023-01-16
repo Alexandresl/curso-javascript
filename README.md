@@ -94,4 +94,8 @@
 
 ### 23. Ctrl + c e Ctrl + v
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/f8d7409ae1e5d7b13c21600129e53edb8c58a4c1)
+
+### 24. Trabalhando com audio
+
 [Commit da aula]()
