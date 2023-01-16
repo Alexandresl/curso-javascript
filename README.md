@@ -102,4 +102,8 @@
 
 ### 25. Definir o valor máximo
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/f65c00d8c5b6abfa95689a51d118417d3ff64806)
+
+### 26. Tratar outros erros no eval() com Try Catch
+
 [Commit da aula]()
