@@ -110,4 +110,10 @@
 
 ### 27. Bonus
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/368dc2d3c334b6decb3d566e1dee7ef8f3778fda)
+
+### 28. Repositório do Projeto da Calculadora
+
+[Repositório do Projeto da Calculadora](https://github.com/hcodebr/curso-javascript-projeto-calculadora-clone-final)
+
 [Commit da aula]()
