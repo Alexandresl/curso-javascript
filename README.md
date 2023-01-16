@@ -90,4 +90,8 @@
 
 ### 22. Eventos de Teclado
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/db00cfc3c6e525172543577ec0119da318fe256f)
+
+### 23. Ctrl + c e Ctrl + v
+
 [Commit da aula]()
