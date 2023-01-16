@@ -98,4 +98,8 @@
 
 ### 24. Trabalhando com audio
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/d15f6524fcfa85687531abbe03167624c943446d)
+
+### 25. Definir o valor máximo
+
 [Commit da aula]()
