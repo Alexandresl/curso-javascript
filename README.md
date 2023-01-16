@@ -106,4 +106,8 @@
 
 ### 26. Tratar outros erros no eval() com Try Catch
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/f7b8fe66ccbefacccb13e81f22551c714f432c74)
+
+### 27. Bonus
+
 [Commit da aula]()
