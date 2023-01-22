@@ -126,4 +126,8 @@
 
 ### 30. Manipulando o DOM
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/b030885d64d62015d40c851cfd5000bcd2607d5c)
+
+### 31. Variáveis
+
 [Commit da aula]()
