@@ -130,4 +130,8 @@
 
 ### 31. Variáveis
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/9ae26eff9da4a81f7fdc5280601a52426621a4ac)
+
+### 32. Variáveis e seletores
+
 [Commit da aula]()
