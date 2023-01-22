@@ -116,4 +116,10 @@
 
 [Repositório do Projeto da Calculadora](https://github.com/hcodebr/curso-javascript-projeto-calculadora-clone-final)
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/6d3e232637a29b35f181bdad8eeee6ee5dfa2c56)
+
+## Seção 3: Gerenciamento de Usuários
+
+### 29. Script incorporado e arquivo externo
+
 [Commit da aula]()
