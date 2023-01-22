@@ -122,4 +122,8 @@
 
 ### 29. Script incorporado e arquivo externo
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/9433a795a103a13c6574948a05a698f8034029b0)
+
+### 30. Manipulando o DOM
+
 [Commit da aula]()
