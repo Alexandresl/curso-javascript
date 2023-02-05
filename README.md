@@ -134,4 +134,8 @@
 
 ### 32. Variáveis e seletores
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/8ca3e56958d65422fde8413816bf297051c4b273)
+
+### 33. For Each
+
 [Commit da aula]()

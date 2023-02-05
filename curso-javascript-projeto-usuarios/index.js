@@ -1,8 +1,7 @@
-const nameEl = document.querySelector("exampleInputName");
-const genderEl = document.querySelector("#form-user-create [name=gender]:checked");
-const birthEl = document.querySelector("exampleInputBirth");
-const countryEl = document.querySelector("exampleInputCountry");
-const emailEl = document.querySelector("exampleInputEmail1");
-const passwordEl = document.querySelector("exampleInputPassword");
-const photoEl = document.querySelector("exampleInputFile");
-const adminEl = document.querySelector("#form-user-create input[name=admin]");
+var fields = document.querySelectorAll("#form-user-create [name]");
+
+fields.forEach((field, index) => {
+
+	console.log(field.id, field.name, field.value, field.checked, index);
+
+});
