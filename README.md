@@ -138,4 +138,8 @@
 
 ### 33. For Each
 
-[Commit da aula]()
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/84967f11ae2cc7a64b43c354e6e1e2bd21c7ec8f)
+
+### 34. If e Else
+
+[Commit dfa aula]()
