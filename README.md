@@ -142,4 +142,8 @@
 
 ### 34. If e Else
 
-[Commit dfa aula]()
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/4be3dd80aabb3a04601d7c63773c104e8d35a452)
+
+### 35. Trabalhando com Json
+
+[Commit da aula]()

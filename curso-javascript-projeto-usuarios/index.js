@@ -1,17 +1,21 @@
-var fields = document.querySelectorAll("#form-user-create [name]");
+const fields = document.querySelectorAll("#form-user-create [name]");
+const user = {};
+
 
 fields.forEach(field => {
 
 	if (field.name === "gender") {
 
 		if (field.checked) {
-			console.log(field);
+			user[field.name] = field.value;
 		}
 
 	} else {
 
-		console.log("Não");
+		user[field.name] = field.value;
 
 	}
 
 });
+
+console.log(user);
