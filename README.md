@@ -146,4 +146,8 @@
 
 ### 35. Trabalhando com Json
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/5d7405119a38610c12d76df927fa09202421c4d5)
+
+### 36. Tabralhando com Eventos no JavaScript
+
 [Commit da aula]()
