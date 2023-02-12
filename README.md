@@ -148,6 +148,10 @@
 
 [Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/5d7405119a38610c12d76df927fa09202421c4d5)
 
-### 36. Tabralhando com Eventos no JavaScript
+### 36. Tralhando com Eventos no JavaScript
+
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/346877005859560747ec4ed48f8999457355d057)
+
+### 37. Trabalhando com funções
 
 [Commit da aula]()
