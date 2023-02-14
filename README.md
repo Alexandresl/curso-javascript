@@ -154,4 +154,8 @@
 
 ### 37. Trabalhando com funções
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/66c9998cf3a70d823db7b9035aa4424359c186c3)
+
+### 38. Programação Orientada a Objetos - Classes e MVC
+
 [Commit da aula]()
