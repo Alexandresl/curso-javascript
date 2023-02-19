@@ -162,4 +162,8 @@
 
 ### 39. Programação Orientada a Objetos - MVC - Controller
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/36a73dcd331931642a69ddcb08f2fca68d57308b)
+
+### 40. O operador Spread ...
+
 [Commit da aula]()

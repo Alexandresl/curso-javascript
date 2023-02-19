@@ -25,7 +25,7 @@ class UserController {
 
 		const user = {};
 
-		this.formEl.elements.forEach((field) => {
+		[...this.formEl.elements].forEach((field) => {
       if (field.name === "gender") {
         if (field.checked) {
           user[field.name] = field.value;
