@@ -158,4 +158,8 @@
 
 ### 38. Programação Orientada a Objetos - Classes e MVC
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/e790e0995aa60c7dfe0bf0db56bc794cae67ef3a)
+
+### 39. Programação Orientada a Objetos - MVC - Controller
+
 [Commit da aula]()
