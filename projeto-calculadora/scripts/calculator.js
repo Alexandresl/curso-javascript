@@ -1,1 +1,0 @@
-const calculator = new CalcController();
