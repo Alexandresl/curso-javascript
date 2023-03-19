@@ -18,4 +18,8 @@
 
 [Repositório - projeto Usuários](https://github.com/hcodebr/curso-javascript-projeto-usuarios)
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/2d36058622d03be3b9c8adcb4ed681348b102d47)
+
+### 4. Introdução ao JavaScript - Básico I
+
 [Commit da aula]()
