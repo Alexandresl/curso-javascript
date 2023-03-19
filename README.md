@@ -8,4 +8,14 @@
 
 ### 2. Conheça a plataforma Udemy e Certificado
 
+[Commit da aula](https://github.com/Alexandresl/curso-javascript/tree/fe47d548cf89225bf5230b049ca52fd7c2effc90)
+
+### 3. Configurando ambiente (Git, Visual Studio Code e Chrome Developer Tools)
+
+[Site do VS Code para download](https://code.visualstudio.com/)
+
+[Site de download do Git](https://git-scm.com/)
+
+[Repositório - projeto Usuários](https://github.com/hcodebr/curso-javascript-projeto-usuarios)
+
 [Commit da aula]()
