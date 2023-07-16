@@ -7,6 +7,8 @@
 		- [3. Configurando ambiente (Git, Visual Studio Code e Chrome Developer Tools)](#3-configurando-ambiente-git-visual-studio-code-e-chrome-developer-tools)
 		- [4. Introdução ao JavaScript - Básico I](#4-introdução-ao-javascript---básico-i)
 		- [5. Introdução ao JavaScript - Básico II](#5-introdução-ao-javascript---básico-ii)
+	- [Seção 2: Projeto Calculadora com JavaScript](#seção-2-projeto-calculadora-com-javascript)
+		- [6. Estruturando o projeto](#6-estruturando-o-projeto)
 
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
@@ -24,3 +26,9 @@
 ### 4. Introdução ao JavaScript - Básico I
 
 ### 5. Introdução ao JavaScript - Básico II
+
+## Seção 2: Projeto Calculadora com JavaScript
+
+### 6. Estruturando o projeto
+
+[Link do projeto](https://github.com/hcodebr/curso-javascript-projeto-calculadora-clone)
