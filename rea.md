@@ -1,8 +1,3 @@
-
-
-
-### 4. Introdução ao JavaScript - Básico I
-
 ### 5. Introdução ao JavaScript - Básico II
 
 ## Seção 2: Projeto Calculadora com JavaScript
