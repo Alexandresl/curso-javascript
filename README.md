@@ -6,6 +6,7 @@
 		- [2. Conheça a plataforma Udemy e Certificado](#2-conheça-a-plataforma-udemy-e-certificado)
 		- [3. Configurando o ambiente (Git, VSCode e Chrome Developer Tools)](#3-configurando-o-ambiente-git-vscode-e-chrome-developer-tools)
 		- [4. Introdução ao JavaScript - Básico I](#4-introdução-ao-javascript---básico-i)
+		- [5. Introdução ao JavaScript - Básico II](#5-introdução-ao-javascript---básico-ii)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -24,5 +25,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/45af831facc1f979393dfef37d0601a2e037bf0e)
 
 ### 4. Introdução ao JavaScript - Básico I
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/3def7b6c9d70bca518b9cb50f5505149b88422b7)
+
+### 5. Introdução ao JavaScript - Básico II
 
 [Commit]()
