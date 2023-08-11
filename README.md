@@ -9,6 +9,7 @@
 		- [5. Introdução ao JavaScript - Básico II](#5-introdução-ao-javascript---básico-ii)
 	- [Seção 2: Projeto Calculadora com JavaScript](#seção-2-projeto-calculadora-com-javascript)
 		- [6. Estruturando o Projeto](#6-estruturando-o-projeto)
+		- [7. Orientação a objetos e MVC](#7-orientação-a-objetos-e-mvc)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -39,5 +40,9 @@
 ### 6. Estruturando o Projeto
 
 [link para o projeto no Github](https://github.com/hcodebr/curso-javascript-projeto-calculadora-clone)
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/faf5b910f20490696ff98e16083ba4b354cc02e1)
+
+### 7. Orientação a objetos e MVC
 
 [Commit]()
