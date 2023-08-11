@@ -11,6 +11,7 @@
 		- [6. Estruturando o Projeto](#6-estruturando-o-projeto)
 		- [7. Orientação a objetos e MVC](#7-orientação-a-objetos-e-mvc)
 		- [8. Método construtor e encapsulamento](#8-método-construtor-e-encapsulamento)
+		- [9. Manipulando o DOM](#9-manipulando-o-dom)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -49,5 +50,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/f0f33a7866f75d947c57ce27166688964e63b4d9)
 
 ### 8. Método construtor e encapsulamento
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/31e740594afda5725b88b1826f5bcaf9f9396361)
+
+### 9. Manipulando o DOM
 
 [Commit]()
