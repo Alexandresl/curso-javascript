@@ -14,6 +14,7 @@
 		- [9. Manipulando o DOM](#9-manipulando-o-dom)
 		- [10. Data e hora](#10-data-e-hora)
 		- [11. querySelector](#11-queryselector)
+		- [12. Adicionando o evento click](#12-adicionando-o-evento-click)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -64,5 +65,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/c5c2b0f274871c7e88b53a35775e0f8a200802c0)
 
 ### 11. querySelector
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/e8487fa5627b4cdf175ad6a4bacd680fe883ccd6)
+
+### 12. Adicionando o evento click
 
 [Commit]()
