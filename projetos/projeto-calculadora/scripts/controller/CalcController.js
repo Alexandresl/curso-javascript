@@ -2,38 +2,71 @@ class CalcController {
 
 	constructor () {
 
-		this._displayCalc = "0";
+		this._locale = 'pt-BR'
 		this._currentDate;
+		this._displayCalcEl = document.querySelector("#display");
+		this._dateEl = document.querySelector("#date");
+		this._timeEl = document.querySelector("#time");
 		this.initialize();
 
 	}
 
+	get locale () {
+		return this._locale;
+	}
+
 	get displayCalc () {
-		return this._displayCalc;
+		return this._displayCalcEl.innerHTML;
 	}
 
 	set displayCalc (value) {
-		this._displayCalc = value;
+		this._displayCalcEl.innerHTML = value;
 	}
 
-	get dataAtual () {
-		return this._currentDate;
+	get currentDate () {
+		return new Date();
 	}
-	
-	set dataAtual (value) {
-		this._currentDate = value;
+
+	get displayTime () {
+		return this._timeEl.innerHTML;
+	}
+
+	set displayTime (value) {
+		this._timeEl.innerHTML = value;
+	}
+
+	get displayDate () {
+		return this._dateEl.innerHTML;
+	}
+
+	set displayDate (value) {
+		this._dateEl.innerHTML = value;
 	}
 
 	initialize () {
 
-		const displayEl = document.querySelector("#display");
-		const dateEl = document.querySelector("#date");
-		const hourEl = document.querySelector("#hour");
+		this.displayCalc = "0";
 
-		displayEl.innerHTML = 100;
-		dateEl.innerHTML = "11/08/2023";
-		hourEl.innerHTML = "12:25";
+		this.SetDisplayDateTime();
+		
+		setInterval(() => {
 
+			this.SetDisplayDateTime();
+
+		}, 1000);
+
+	}
+
+	SetDisplayDateTime () {
+
+		this.displayDate = this.currentDate.toLocaleDateString(this.locale, {
+			day: "2-digit",
+			month: "long",
+			year: "numeric"
+		});
+
+		this.displayTime = this.currentDate.toLocaleTimeString(this.locale);
+		
 	}
 
 }

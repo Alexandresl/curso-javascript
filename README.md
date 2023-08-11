@@ -12,6 +12,7 @@
 		- [7. Orientação a objetos e MVC](#7-orientação-a-objetos-e-mvc)
 		- [8. Método construtor e encapsulamento](#8-método-construtor-e-encapsulamento)
 		- [9. Manipulando o DOM](#9-manipulando-o-dom)
+		- [10. Data e hora](#10-data-e-hora)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -54,5 +55,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/31e740594afda5725b88b1826f5bcaf9f9396361)
 
 ### 9. Manipulando o DOM
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/499b5775cc0ae837b6ce139999f863d21f4cee77)
+
+### 10. Data e hora
 
 [Commit]()
