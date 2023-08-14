@@ -20,6 +20,7 @@
 		- [15. Adicionando operações - isNaN e Array.length](#15-adicionando-operações---isnan-e-arraylength)
 		- [16. Eval - Validando o primeiro operador e calculando resultado](#16-eval---validando-o-primeiro-operador-e-calculando-resultado)
 		- [17. For - Procurando o último número do Array](#17-for---procurando-o-último-número-do-array)
+		- [18. Botão Porcento](#18-botão-porcento)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -94,5 +95,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/b04f1b04913bf435f5a60869bfa51e7ec35620e0)
 
 ### 17. For - Procurando o último número do Array
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/3ca524acae4c86270f96942c6de7f60ecb23419f)
+
+### 18. Botão Porcento
 
 [Commit]()
