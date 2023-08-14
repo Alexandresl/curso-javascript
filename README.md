@@ -17,6 +17,7 @@
 		- [12. Adicionando o evento click](#12-adicionando-o-evento-click)
 		- [13. Aplicando Vários Eventos usando split()](#13-aplicando-vários-eventos-usando-split)
 		- [14. Switch](#14-switch)
+		- [15. Adicionando operações - isNaN e Array.length](#15-adicionando-operações---isnan-e-arraylength)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -79,5 +80,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/21d24bab1d8b849cfa9a737ec61e39521a24fcfd)
 
 ### 14. Switch
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/f470401b893af02c3bdc8d62ff9d2f86a52c27b1)
+
+### 15. Adicionando operações - isNaN e Array.length
 
 [Commit]()
