@@ -21,6 +21,7 @@
 		- [16. Eval - Validando o primeiro operador e calculando resultado](#16-eval---validando-o-primeiro-operador-e-calculando-resultado)
 		- [17. For - Procurando o último número do Array](#17-for---procurando-o-último-número-do-array)
 		- [18. Botão Porcento](#18-botão-porcento)
+		- [19. Clicando mais de uma vez no botão igual](#19-clicando-mais-de-uma-vez-no-botão-igual)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -99,5 +100,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/3ca524acae4c86270f96942c6de7f60ecb23419f)
 
 ### 18. Botão Porcento
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/ec6469e314a7eb43ed7168f0422686b7776ea37b)
+
+### 19. Clicando mais de uma vez no botão igual
 
 [Commit]()
