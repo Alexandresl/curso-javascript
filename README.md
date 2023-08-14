@@ -19,6 +19,7 @@
 		- [14. Switch](#14-switch)
 		- [15. Adicionando operações - isNaN e Array.length](#15-adicionando-operações---isnan-e-arraylength)
 		- [16. Eval - Validando o primeiro operador e calculando resultado](#16-eval---validando-o-primeiro-operador-e-calculando-resultado)
+		- [17. For - Procurando o último número do Array](#17-for---procurando-o-último-número-do-array)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -89,5 +90,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/7274480eb6d297744b6cf0283a771e649efc78f3)
 
 ### 16. Eval - Validando o primeiro operador e calculando resultado
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/b04f1b04913bf435f5a60869bfa51e7ec35620e0)
+
+### 17. For - Procurando o último número do Array
 
 [Commit]()
