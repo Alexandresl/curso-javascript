@@ -16,6 +16,7 @@
 		- [11. querySelector](#11-queryselector)
 		- [12. Adicionando o evento click](#12-adicionando-o-evento-click)
 		- [13. Aplicando Vários Eventos usando split()](#13-aplicando-vários-eventos-usando-split)
+		- [14. Switch](#14-switch)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -74,5 +75,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/1788ce032899975b95a668c1c63eb27ef9ada688)
 
 ### 13. Aplicando Vários Eventos usando split()
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/21d24bab1d8b849cfa9a737ec61e39521a24fcfd)
+
+### 14. Switch
 
 [Commit]()
