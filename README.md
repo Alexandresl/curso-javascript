@@ -18,6 +18,7 @@
 		- [13. Aplicando Vários Eventos usando split()](#13-aplicando-vários-eventos-usando-split)
 		- [14. Switch](#14-switch)
 		- [15. Adicionando operações - isNaN e Array.length](#15-adicionando-operações---isnan-e-arraylength)
+		- [16. Eval - Validando o primeiro operador e calculando resultado](#16-eval---validando-o-primeiro-operador-e-calculando-resultado)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -84,5 +85,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/f470401b893af02c3bdc8d62ff9d2f86a52c27b1)
 
 ### 15. Adicionando operações - isNaN e Array.length
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/7274480eb6d297744b6cf0283a771e649efc78f3)
+
+### 16. Eval - Validando o primeiro operador e calculando resultado
 
 [Commit]()

@@ -18,9 +18,10 @@ class CalcController {
     return this._displayCalcEl.innerHTML;
   }
 
-displayCalc(value) { {
-    this._operation[this._operation.length - 1] = value;
-  }
+  displayCalc(value) {
+    {
+      this._operation[this._operation.length - 1] = value;
+    }
     this._displayCalcEl.innerHTML = value;
   }
 
@@ -32,9 +33,10 @@ displayCalc(value) { {
     return this._timeEl.innerHTML;
   }
 
-displayTime(value) { {
-    this._operation[this._operation.length - 1] = value;
-  }
+  displayTime(value) {
+    {
+      this._operation[this._operation.length - 1] = value;
+    }
     this._timeEl.innerHTML = value;
   }
 
@@ -42,9 +44,10 @@ displayTime(value) { {
     return this._dateEl.innerHTML;
   }
 
-displayDate(value) { {
-    this._operation[this._operation.length - 1] = value;
-  }
+  displayDate(value) {
+    {
+      this._operation[this._operation.length - 1] = value;
+    }
     this._dateEl.innerHTML = value;
   }
 
@@ -88,22 +91,45 @@ displayDate(value) { {
     this._operation[this._operation.length - 1] = value;
   }
 
+  pushOperation(value) {
+
+    this._operation.push(value);
+    if (this._operation.length > 3) {
+      this.calc();
+    }
+    
+  }
+
+  calc() {
+    let last = this._operation.pop();
+    let result = eval(this._operation.join(""));
+    this._operation = [result, last];
+
+  }
+
+  setLastNumberToDisplay() {
+    
+  }
+
   addOperation(value) {
     if (isNaN(this.getLastOperation())) {
       if (this.isOperator(value)) {
-        // Trocar o operador
         this.setLastOperation(value);
       } else if (isNaN(value)) {
-        // Outra coisa
-        console.log("Outra Coisa");
+        console.log("Outra Coisa: ", value);
       } else {
-        this._operation.push(value);
+        this.pushOperation(value);
+        this.setLastNumberToDisplay();
       }
     } else {
-      let newValue = this.getLastOperation().toString() + value.toString();
-      this.setLastOperation(parseInt(newValue));
+      if (this.isOperator(value)) {
+        this.pushOperation(value);
+      } else {
+        let newValue = this.getLastOperation().toString() + value.toString();
+        this.setLastOperation(parseInt(newValue));
+        this.setLastNumberToDisplay();
+      }
     }
-    console.log(this._operation);
   }
 
   execBtn(value) {
