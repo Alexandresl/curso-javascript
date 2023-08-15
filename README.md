@@ -28,6 +28,7 @@
 		- [23. Ctrl + C e Ctrl + V](#23-ctrl--c-e-ctrl--v)
 		- [24. Trabalhando com áudio](#24-trabalhando-com-áudio)
 		- [25. Definir o valor máximo](#25-definir-o-valor-máximo)
+		- [26. Tratar outros erros no eval() com Try Catch](#26-tratar-outros-erros-no-eval-com-try-catch)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -134,5 +135,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/d6d84032d1724b781b72236530883b5ba11149b9)
 
 ### 25. Definir o valor máximo
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/e9cd47cb276bc3fb1f4156849b8e2a569fa26525)
+
+### 26. Tratar outros erros no eval() com Try Catch
 
 [Commit]()
