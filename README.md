@@ -22,6 +22,7 @@
 		- [17. For - Procurando o último número do Array](#17-for---procurando-o-último-número-do-array)
 		- [18. Botão Porcento](#18-botão-porcento)
 		- [19. Clicando mais de uma vez no botão igual](#19-clicando-mais-de-uma-vez-no-botão-igual)
+		- [20. Botão ponto](#20-botão-ponto)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -104,5 +105,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/ec6469e314a7eb43ed7168f0422686b7776ea37b)
 
 ### 19. Clicando mais de uma vez no botão igual
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/f6cd1535dc5fc580a4d08d7579fa22a196ecd415)
+
+### 20. Botão ponto
 
 [Commit]()
