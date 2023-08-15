@@ -31,6 +31,8 @@
 		- [26. Tratar outros erros no eval() com Try Catch](#26-tratar-outros-erros-no-eval-com-try-catch)
 		- [27. Bonus](#27-bonus)
 		- [28. Repositório do Projeto da Calculadora](#28-repositório-do-projeto-da-calculadora)
+	- [Seção 3: Gerenciamento de usuários](#seção-3-gerenciamento-de-usuários)
+		- [29. Script incorporado e arquivo externo](#29-script-incorporado-e-arquivo-externo)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -153,5 +155,11 @@
 ### 28. Repositório do Projeto da Calculadora
 
 [Repositório Calculadora](https://github.com/hcodebr/curso-javascript-projeto-calculadora-clone-final)
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/747a20c3c38e7a21c58b55e79c2a151fd154b1c0)
+
+## Seção 3: Gerenciamento de usuários
+
+### 29. Script incorporado e arquivo externo
 
 [Commit]()
