@@ -25,6 +25,7 @@
 		- [20. Botão ponto](#20-botão-ponto)
 		- [21. Correções de Bugs com o Ponto](#21-correções-de-bugs-com-o-ponto)
 		- [22. Eventos de teclado](#22-eventos-de-teclado)
+		- [23. Ctrl + C e Ctrl + V](#23-ctrl--c-e-ctrl--v)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -119,5 +120,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/afd0c03a3e31579556416cfb31928ce891b60b91)
 
 ### 22. Eventos de teclado
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/816c25261a247c6573e3d52c98b435edccbbf42e)
+
+### 23. Ctrl + C e Ctrl + V
 
 [Commit]()

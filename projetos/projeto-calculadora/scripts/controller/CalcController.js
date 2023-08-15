@@ -11,6 +11,7 @@ class CalcController {
     this.initialize();
     this.initButtonsEvents();
     this.initKeyboard();
+    this.pastFromClipboard();
   }
 
   get locale() {
@@ -43,6 +44,20 @@ class CalcController {
 
   set displayDate(value) {
     this._dateEl.innerHTML = value;
+  }
+  
+  async copyToClipboard() {
+    await navigator.clipboard.writeText(this.displayCalc)
+  }
+
+  pastFromClipboard () {
+    document.addEventListener('paste', e => {
+      let text = e.clipboardData.getData('Text');
+      if (!isNaN(text)) {
+        this._operation.push(text);
+        this.displayCalc = parseFloat(text);
+      }      
+    });
   }
 
   initialize() {
@@ -90,6 +105,9 @@ class CalcController {
         case "8":
         case "9":
           this.addOperation(parseInt(e.key));
+          break;
+        case "c":
+          if  (e.ctrlKey) this.copyToClipboard();
           break;
       }
     });
