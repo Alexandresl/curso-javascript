@@ -30,6 +30,7 @@
 		- [25. Definir o valor máximo](#25-definir-o-valor-máximo)
 		- [26. Tratar outros erros no eval() com Try Catch](#26-tratar-outros-erros-no-eval-com-try-catch)
 		- [27. Bonus](#27-bonus)
+		- [28. Repositório do Projeto da Calculadora](#28-repositório-do-projeto-da-calculadora)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -146,5 +147,11 @@
 ### 27. Bonus
 
 [Novo layout](https://github.com/hcodebr/curso-javascript-projeto-calculadora-win)
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/d20eac2ff7bcaf11b781e19a73e514444365b5f5)
+
+### 28. Repositório do Projeto da Calculadora
+
+[Repositório Calculadora](https://github.com/hcodebr/curso-javascript-projeto-calculadora-clone-final)
 
 [Commit]()
