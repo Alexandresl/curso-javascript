@@ -27,6 +27,7 @@
 		- [22. Eventos de teclado](#22-eventos-de-teclado)
 		- [23. Ctrl + C e Ctrl + V](#23-ctrl--c-e-ctrl--v)
 		- [24. Trabalhando com áudio](#24-trabalhando-com-áudio)
+		- [25. Definir o valor máximo](#25-definir-o-valor-máximo)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -129,5 +130,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/dd4246c9bec2e39e6c10869fbcc642a44a2abbeb)
 
 ### 24. Trabalhando com áudio
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/d6d84032d1724b781b72236530883b5ba11149b9)
+
+### 25. Definir o valor máximo
 
 [Commit]()
