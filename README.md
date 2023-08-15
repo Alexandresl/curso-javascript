@@ -33,6 +33,7 @@
 		- [28. Repositório do Projeto da Calculadora](#28-repositório-do-projeto-da-calculadora)
 	- [Seção 3: Gerenciamento de usuários](#seção-3-gerenciamento-de-usuários)
 		- [29. Script incorporado e arquivo externo](#29-script-incorporado-e-arquivo-externo)
+		- [30. Manipulando o DOM](#30-manipulando-o-dom)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -161,5 +162,9 @@
 ## Seção 3: Gerenciamento de usuários
 
 ### 29. Script incorporado e arquivo externo
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/5ff348b4c9365da24067e5a4d5293c7d27cecc4e)
+
+### 30. Manipulando o DOM
 
 [Commit]()
