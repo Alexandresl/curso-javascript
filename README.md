@@ -26,6 +26,7 @@
 		- [21. Correções de Bugs com o Ponto](#21-correções-de-bugs-com-o-ponto)
 		- [22. Eventos de teclado](#22-eventos-de-teclado)
 		- [23. Ctrl + C e Ctrl + V](#23-ctrl--c-e-ctrl--v)
+		- [24. Trabalhando com áudio](#24-trabalhando-com-áudio)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -124,5 +125,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/816c25261a247c6573e3d52c98b435edccbbf42e)
 
 ### 23. Ctrl + C e Ctrl + V
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/dd4246c9bec2e39e6c10869fbcc642a44a2abbeb)
+
+### 24. Trabalhando com áudio
 
 [Commit]()
