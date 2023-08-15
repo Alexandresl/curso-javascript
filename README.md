@@ -23,6 +23,7 @@
 		- [18. Botão Porcento](#18-botão-porcento)
 		- [19. Clicando mais de uma vez no botão igual](#19-clicando-mais-de-uma-vez-no-botão-igual)
 		- [20. Botão ponto](#20-botão-ponto)
+		- [21. Correções de Bugs com o Ponto](#21-correções-de-bugs-com-o-ponto)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -109,5 +110,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/f6cd1535dc5fc580a4d08d7579fa22a196ecd415)
 
 ### 20. Botão ponto
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/ee0001729e5595668e5c2a8acda100e746eb055f)
+
+### 21. Correções de Bugs com o Ponto
 
 [Commit]()
