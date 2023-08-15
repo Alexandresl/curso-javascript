@@ -29,6 +29,7 @@
 		- [24. Trabalhando com áudio](#24-trabalhando-com-áudio)
 		- [25. Definir o valor máximo](#25-definir-o-valor-máximo)
 		- [26. Tratar outros erros no eval() com Try Catch](#26-tratar-outros-erros-no-eval-com-try-catch)
+		- [27. Bonus](#27-bonus)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -139,5 +140,11 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/e9cd47cb276bc3fb1f4156849b8e2a569fa26525)
 
 ### 26. Tratar outros erros no eval() com Try Catch
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/4ea1b6fd4c1287df6eb86addf2f836494f9c5e3a)
+
+### 27. Bonus
+
+[Novo layout](https://github.com/hcodebr/curso-javascript-projeto-calculadora-win)
 
 [Commit]()
