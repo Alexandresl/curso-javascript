@@ -34,6 +34,7 @@
 	- [Seção 3: Gerenciamento de usuários](#seção-3-gerenciamento-de-usuários)
 		- [29. Script incorporado e arquivo externo](#29-script-incorporado-e-arquivo-externo)
 		- [30. Manipulando o DOM](#30-manipulando-o-dom)
+		- [31. Variáveis](#31-variáveis)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -166,5 +167,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/5ff348b4c9365da24067e5a4d5293c7d27cecc4e)
 
 ### 30. Manipulando o DOM
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/4041d4998eed0c5053b10bd151c48468d512212e)
+
+### 31. Variáveis
 
 [Commit]()
