@@ -38,6 +38,7 @@
 		- [32. Variáveis e Seletores](#32-variáveis-e-seletores)
 		- [33. forEach](#33-foreach)
 		- [34. if e else](#34-if-e-else)
+		- [35. Trabalhando com Json](#35-trabalhando-com-json)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -186,5 +187,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/75697792df768b8da3cdfb156e09e3802228a62b)
 
 ### 34. if e else
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/c55624f83c0bc3186adcb1ccf5dd4356ac8a1820)
+
+### 35. Trabalhando com Json
 
 [Commit]()
