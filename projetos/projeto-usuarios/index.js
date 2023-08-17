@@ -9,3 +9,9 @@ let inputPassword = document.querySelector("#InputPassword");
 let inputPhoto = document.querySelector("#InputPhoto");
 let inputAdmin = document.querySelector("#inputAdmin");
 let inputBtn = document.querySelector("#inputBtn");
+
+let fields = document.querySelectorAll('#form-user-create [name]');
+
+fields.forEach((field, index) => {
+	console.log(field.name, field.id, index, field.checked);
+});

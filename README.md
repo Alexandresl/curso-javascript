@@ -36,6 +36,7 @@
 		- [30. Manipulando o DOM](#30-manipulando-o-dom)
 		- [31. Variáveis](#31-variáveis)
 		- [32. Variáveis e Seletores](#32-variáveis-e-seletores)
+		- [33. forEach](#33-foreach)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -176,5 +177,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/cfef8940a19b491475ccf89bcfc94b00ef0c1d2b)
 
 ### 32. Variáveis e Seletores
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/11f11feb8387f8725826e454e9454b019447e8c0)
+
+### 33. forEach
 
 [Commit]()
