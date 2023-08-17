@@ -40,6 +40,7 @@
 		- [34. if e else](#34-if-e-else)
 		- [35. Trabalhando com Json](#35-trabalhando-com-json)
 		- [36. Trabalhando com eventos no JavaScript](#36-trabalhando-com-eventos-no-javascript)
+		- [37. Trabalhando com funções](#37-trabalhando-com-funções)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -196,5 +197,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/22d85b0ecf0758c78b440e123961625982fb9595)
 
 ### 36. Trabalhando com eventos no JavaScript
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/5dfae96fee94881c3cc1e4e6ec9dcbbb38e12ad4)
+
+### 37. Trabalhando com funções
 
 [Commit]()
