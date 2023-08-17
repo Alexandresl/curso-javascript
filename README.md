@@ -37,6 +37,7 @@
 		- [31. Variáveis](#31-variáveis)
 		- [32. Variáveis e Seletores](#32-variáveis-e-seletores)
 		- [33. forEach](#33-foreach)
+		- [34. if e else](#34-if-e-else)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -181,5 +182,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/11f11feb8387f8725826e454e9454b019447e8c0)
 
 ### 33. forEach
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/75697792df768b8da3cdfb156e09e3802228a62b)
+
+### 34. if e else
 
 [Commit]()

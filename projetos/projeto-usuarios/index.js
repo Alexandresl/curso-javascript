@@ -13,5 +13,13 @@ let inputBtn = document.querySelector("#inputBtn");
 let fields = document.querySelectorAll('#form-user-create [name]');
 
 fields.forEach((field, index) => {
-	console.log(field.name, field.id, index, field.checked);
+	
+	if (field.name === 'gender') {
+		if (field.checked) {
+			console.log("Sim", field);
+		}
+	} else {
+		console.log("Não");
+	}
+
 });
