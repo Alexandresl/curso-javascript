@@ -43,6 +43,7 @@
 		- [37. Trabalhando com funções](#37-trabalhando-com-funções)
 		- [38. Programação Orientada a Objetos - Classes e MVC](#38-programação-orientada-a-objetos---classes-e-mvc)
 		- [39. Programação Orientada a Objetos - Controller](#39-programação-orientada-a-objetos---controller)
+		- [40. O operador Spread ...](#40-o-operador-spread-)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -211,5 +212,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/582596720899d508ee0fa4de19515f9da7d2dbf5)
 
 ### 39. Programação Orientada a Objetos - Controller
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/4b38925f8ebf2ae0fac7451b91949735f6ef463d)
+
+### 40. O operador Spread ...
 
 [Commit]()
