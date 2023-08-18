@@ -15,10 +15,25 @@ document.getElementById("form-user-create").addEventListener("submit", (e) => {
     }
   });
 
-  addLine(user);
+  let objectUser = new User(
+    user.name,
+    user.gender,
+    user.birth,
+    user.country,
+    user.email,
+    user.password,
+    user.photo,
+    user.admin
+  );
+
+	addLine(objectUser);
+
 });
 
 function addLine(dataUser) {
+
+	console.log(dataUser);
+
   var tr = document.createElement("tr");
 
   tr.innerHTML = `
@@ -33,7 +48,6 @@ function addLine(dataUser) {
 		</td>
 	`;
 
-	document.querySelector("#tableUsers > tbody").appendChild(tr);
+  document.querySelector("#tableUsers > tbody").appendChild(tr);
 
-  console.log("addLine", dataUser);
 }

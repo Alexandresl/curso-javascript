@@ -41,6 +41,7 @@
 		- [35. Trabalhando com Json](#35-trabalhando-com-json)
 		- [36. Trabalhando com eventos no JavaScript](#36-trabalhando-com-eventos-no-javascript)
 		- [37. Trabalhando com funções](#37-trabalhando-com-funções)
+		- [38. Programação Orientada a Objetos - Classes e MVC](#38-programação-orientada-a-objetos---classes-e-mvc)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -201,5 +202,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/5dfae96fee94881c3cc1e4e6ec9dcbbb38e12ad4)
 
 ### 37. Trabalhando com funções
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/3e70f651ad9aa83012f7bdf7f88cb57e587aa303)
+
+### 38. Programação Orientada a Objetos - Classes e MVC
 
 [Commit]()
