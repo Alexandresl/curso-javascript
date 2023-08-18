@@ -45,6 +45,7 @@
 		- [39. Programação Orientada a Objetos - Controller](#39-programação-orientada-a-objetos---controller)
 		- [40. O operador Spread ...](#40-o-operador-spread-)
 		- [41. Trabalhando com arquivos - File Reader](#41-trabalhando-com-arquivos---file-reader)
+		- [42. Trabalhando com Promise no JavaScript](#42-trabalhando-com-promise-no-javascript)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -221,5 +222,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/d937076bf37ab5e13d00a5a5ff51a204c9d2aec8)
 
 ### 41. Trabalhando com arquivos - File Reader
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/032841a6a2dd03c5655bd9260810ac250bc2d930)
+
+### 42. Trabalhando com Promise no JavaScript
 
 [Commit]()

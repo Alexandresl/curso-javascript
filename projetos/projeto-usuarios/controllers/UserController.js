@@ -1,85 +1,82 @@
 class UserController {
+  constructor(formId, tableId) {
+    this.formEl = document.getElementById(formId);
+    this.tableId = document.querySelector("#" + tableId + " > tbody");
 
-	constructor (formId, tableId) {
-		this.formEl = document.getElementById(formId);
-		this.tableId = document.querySelector("#" + tableId + " > tbody");
+    this.onSubmit();
+  }
 
-		this.onSubmit();
-	}
+  onSubmit() {
+    this.formEl.addEventListener("submit", (e) => {
+      e.preventDefault();
 
-	onSubmit() {
+      let values = this.getValues();
 
-		this.formEl.addEventListener("submit", e => {
+      this.getPhoto().then(
+        (content) => {
+          values.photo = content;
+          this.addLine(values);
+        },
+        (e) => {
+          console.error(e);
+        }
+      );
+    });
+  }
 
-			e.preventDefault();
+  getPhoto() {
+    return new Promise((resolve, reject) => {
+      let fileReader = new FileReader();
 
-			let values = this.getValues();
+      let elements = [...this.formEl.elements].filter((item) => {
+        if (item.name === "photo") {
+          return item;
+        }
+      });
 
-			this.getPhoto((content) => {
+      let file = elements[0].files[0];
 
-				values.photo = content;
-				this.addLine(values);
+      fileReader.onload = () => {
+        resolve(fileReader.result);
+      };
 
-			});
-			
-		});
+      fileReader.onerror = (e) => {
+        reject(e);
+      };
 
-	}
+      fileReader.readAsDataURL(file);
+    });
+  }
 
-	getPhoto(callback) {
+  getValues() {
+    let user = {};
 
-		let fileReader = new FileReader();
+    [...this.formEl.elements].forEach((field) => {
+      if (field.name === "gender") {
+        if (field.checked) {
+          user[field.name] = field.value;
+        }
+      } else {
+        user[field.name] = field.value;
+      }
+    });
 
-		let elements = [...this.formEl.elements].filter(item => {
-			if (item.name === 'photo') {
-				return item;
-			}
-		});
+    return new User(
+      user.name,
+      user.gender,
+      user.birth,
+      user.country,
+      user.email,
+      user.password,
+      user.photo,
+      user.admin
+    );
+  }
 
-		let file = elements[0].files[0];
+  addLine(dataUser) {
+    var tr = document.createElement("tr");
 
-		fileReader.onload = () => {
-
-			callback(fileReader.result);
-
-		};
-
-		fileReader.readAsDataURL(file);
-
-	}
-
-	getValues() {
-
-		let user = {};
-
-		[...this.formEl.elements].forEach((field) => {
-			if (field.name === "gender") {
-				if (field.checked) {
-					user[field.name] = field.value;
-				}
-			} else {
-				user[field.name] = field.value;
-			}
-		});
-
-		return new User(
-			user.name,
-			user.gender,
-			user.birth,
-			user.country,
-			user.email,
-			user.password,
-			user.photo,
-			user.admin
-		);
-
-	}
-
-	addLine(dataUser) {
-	
-		var tr = document.createElement("tr");
-	
-		tr.innerHTML = `;
+    tr.innerHTML = `;
 			<td><img src="${dataUser.photo}" alt="User Image" class="img-circle img-sm"></td>
 			<td>${dataUser.name}</td>
 			<td>${dataUser.email}</td>
@@ -90,9 +87,7 @@ class UserController {
 				<button type="button" class="btn btn-danger btn-xs btn-flat">Excluir</button>
 			</td>
 		`;
-	
-		this.tableId.appendChild(tr);
-	
-	}
 
+    this.tableId.appendChild(tr);
+  }
 }
