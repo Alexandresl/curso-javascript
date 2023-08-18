@@ -44,6 +44,7 @@
 		- [38. Programação Orientada a Objetos - Classes e MVC](#38-programação-orientada-a-objetos---classes-e-mvc)
 		- [39. Programação Orientada a Objetos - Controller](#39-programação-orientada-a-objetos---controller)
 		- [40. O operador Spread ...](#40-o-operador-spread-)
+		- [41. Trabalhando com arquivos - File Reader](#41-trabalhando-com-arquivos---file-reader)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -216,5 +217,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/4b38925f8ebf2ae0fac7451b91949735f6ef463d)
 
 ### 40. O operador Spread ...
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/d937076bf37ab5e13d00a5a5ff51a204c9d2aec8)
+
+### 41. Trabalhando com arquivos - File Reader
 
 [Commit]()
