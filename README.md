@@ -46,6 +46,7 @@
 		- [40. O operador Spread ...](#40-o-operador-spread-)
 		- [41. Trabalhando com arquivos - File Reader](#41-trabalhando-com-arquivos---file-reader)
 		- [42. Trabalhando com Promise no JavaScript](#42-trabalhando-com-promise-no-javascript)
+		- [43. Ajustando a View do Projeto - Operador ternário](#43-ajustando-a-view-do-projeto---operador-ternário)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -226,5 +227,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/032841a6a2dd03c5655bd9260810ac250bc2d930)
 
 ### 42. Trabalhando com Promise no JavaScript
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/c45ce54ce63f5d61d2f8913246eff9c34a572292)
+
+### 43. Ajustando a View do Projeto - Operador ternário
 
 [Commit]()
