@@ -47,6 +47,7 @@
 		- [41. Trabalhando com arquivos - File Reader](#41-trabalhando-com-arquivos---file-reader)
 		- [42. Trabalhando com Promise no JavaScript](#42-trabalhando-com-promise-no-javascript)
 		- [43. Ajustando a View do Projeto - Operador ternário](#43-ajustando-a-view-do-projeto---operador-ternário)
+		- [44. Trabalhando com Datas, Getters e Setters](#44-trabalhando-com-datas-getters-e-setters)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -231,5 +232,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/c45ce54ce63f5d61d2f8913246eff9c34a572292)
 
 ### 43. Ajustando a View do Projeto - Operador ternário
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/79ccc791e0c5af62d1f11905b25f8a811f48ebd0)
+
+### 44. Trabalhando com Datas, Getters e Setters
 
 [Commit]()
