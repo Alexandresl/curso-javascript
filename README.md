@@ -48,6 +48,7 @@
 		- [42. Trabalhando com Promise no JavaScript](#42-trabalhando-com-promise-no-javascript)
 		- [43. Ajustando a View do Projeto - Operador ternário](#43-ajustando-a-view-do-projeto---operador-ternário)
 		- [44. Trabalhando com Datas, Getters e Setters](#44-trabalhando-com-datas-getters-e-setters)
+		- [45. Trabalhando com métodos estáticos](#45-trabalhando-com-métodos-estáticos)
 
 ## Seção 1: Introdução ao JavaScript e Preparação do Ambiente
 
@@ -236,5 +237,9 @@
 [Commit](https://github.com/Alexandresl/curso-javascript/commit/79ccc791e0c5af62d1f11905b25f8a811f48ebd0)
 
 ### 44. Trabalhando com Datas, Getters e Setters
+
+[Commit](https://github.com/Alexandresl/curso-javascript/commit/ee6b13b9d8a11942abc3bcc754a24de37462caf6)
+
+### 45. Trabalhando com métodos estáticos
 
 [Commit]()
